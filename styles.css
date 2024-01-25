@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+}
+
+.first-img {
+    background-image: url(assets/firstimg.jpg);
+    height: 170px;
+    width: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.logo {
+        font-family: "Bungee Spice", sans-serif;
+        font-weight: 400;
+        font-style: normal;
+        font-size: 50px;
+}
+
+.page {
+    display: flex;
+    
+}
+
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: rgb(228, 196, 196) transparent;
+    box-shadow: 10px 5px 5px rgb(227, 227, 227);
+    align-items: center;
+    margin-right: 0;
+    margin-left: 0;
+    
+}
+
+li, .cart {
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+a {
+    color: black;
+}
+
+.border:hover {
+    background-color: rgb(241, 203, 130);
+    border-radius: 10px;
+    border: 2px solid rgb(23, 22, 21);
+}
+
+.deliver {
+    padding: 10px;
+    background-color: rgb(241, 186, 82);
+}
+
+/** Hero Section **/
+
+.hero-section {
+    background-image: url(assets/heroimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 750px;
+    
+    
+}
+
+.hero-msg {
+    background-color: white;
+    font-family: sans-serif;
+    font-size: 20px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 60%;
+    margin: auto;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    
+    height: 50px;
+    
+}
+
